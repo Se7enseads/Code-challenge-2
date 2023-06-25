@@ -1,0 +1,70 @@
+/* Styling for the names section */
+
+body {
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#names_section {
+    margin-bottom: 20px;
+}
+
+#names_section ul {
+    padding: 0px;
+}
+
+.names {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.character_details {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.character_details:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the details section */
+#card {
+    background-color: beige;
+    border: black solid;
+    width: max-content;
+    padding: 20px;
+}
+
+#details_section h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#details_section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#votes {
+    margin-top: 10px;
+}
+
+#votes input[type="number"]::-webkit-inner-spin-button,
+#votes input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#votes input[type="number"] {
+    width: 135px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#votes input[type="submit"] {
+    padding: 5px 10px;
+}
